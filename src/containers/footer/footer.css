@@ -1,0 +1,15 @@
+.bg-footer{
+    background-color: #132a42;
+}
+
+footer .footer{
+    color: #ffffff;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+}

@@ -1,0 +1,14 @@
+.subtitle{
+    display: inline-block;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.subtitle::before {
+    content: "";
+    display: block;
+    width: 35%;
+    height: 3px;
+    background: linear-gradient(to right, #31acff 0%, #fc60dc 62%);
+    margin-bottom: 1rem;
+}

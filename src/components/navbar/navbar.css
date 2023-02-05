@@ -1,0 +1,115 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 2rem 6rem;
+    transition: all .2s;
+    z-index: 20000;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.navbar-links-logo img {
+    max-width: 30px;
+    filter: invert(100%);
+}
+
+.navbar-links-container {
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+    color: var(--color-text);
+}
+
+.navbar-menu {
+    display: none;
+    position: relative;
+}
+
+.navbar-menu-container-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: var(--color-text);
+    text-align: end;
+    padding: 2rem 6rem;
+    gap: 1rem;
+    width: 100vw;
+}
+
+.navbar-links-container li a {
+    display: inline-block;
+}
+
+.navbar-links-container li a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: var(--color-text);
+    transition: width .3s;
+}
+
+.navbar-links-container li a:hover::after {
+    width: 100%;
+}
+
+.bg-nav {
+    background-color: #0e3650af;
+    backdrop-filter: blur(15px);
+}
+
+.menu-order {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media screen and (max-width: 920px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .navbar-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        gap: 2rem;
+        width: 100%;
+    }
+
+    .navbar-menu-container-links {
+        padding: 0;
+        width: 50vw;
+    }
+
+    .navbar-menu svg {
+        cursor: pointer;
+    }
+
+    .navbar-links {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .navbar {
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 551px) and (max-width: 700px) {
+    .navbar {
+        padding: 2rem 4rem;
+    }
+}

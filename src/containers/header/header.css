@@ -1,0 +1,150 @@
+header{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.fs-header {
+    font-size: 4.2rem;
+    background: #0F99F5;
+    background: linear-gradient(to right, #31acff 0%, #fc60dc 62%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 4.5rem;
+}
+
+.email-input {
+    padding: .8rem 0;
+    padding-left: .5rem;
+    border: none;
+    color: #ffffff;
+    background-color: var(--color-bg);
+    flex: 1;
+}
+
+.email-input:focus {
+    outline: none;
+}
+
+.email-button {
+    border: none;
+    background-color: #0F99F5;
+    color: #ffffff;
+    padding: .8rem .5rem;
+}
+
+.email-button:hover {
+    cursor: pointer;
+}
+
+.email-button:active {
+    border: none;
+    background-color: #0881d1;
+}
+
+.section-padding {
+    padding: 2rem 6rem;
+}
+
+.email-container {
+    width: 100%;
+    display: flex;
+}
+
+.text-link {
+    background: linear-gradient(to right, #31acff 0%, #fc60dc 62%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.text-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(to right, #31acff 0%, #fc60dc 62%);
+    transition: width .3s;
+}
+
+.text-link:hover::after {
+    width: 100%;
+}
+
+.header-img-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container-column{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.5rem;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.header-content{
+    margin-right: 6rem;
+}
+
+@media screen and (max-width: 550px) {
+    .fs-header {
+        font-size: 2.5rem;
+        line-height: 2.8rem;
+    }
+
+    .section-padding {
+        padding: 2rem;
+    }
+
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .header-content{
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 551px) and (max-width: 920px) {
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-content{
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 921px) and (max-width: 1270px) {
+    .fs-header {
+        font-size: 3.2rem;
+    }
+
+    .flex-container-column{
+        flex: 1;
+    }
+}

@@ -1,0 +1,30 @@
+.cta-button {
+    background: linear-gradient(to right, #31acff 0%, #fc60dc 100%);
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin: 2rem 0;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+
+    transition: all .2s;
+}
+
+.cta-button:hover {
+    box-shadow: 1px -1px 52px 0px rgba(49, 172, 255, 0.44);
+    -webkit-box-shadow: 1px -1px 52px 0px rgba(49, 172, 255, 0.44);
+    -moz-box-shadow: 1px -1px 52px 0px rgba(49, 172, 255, 0.44);
+}
+
+.try-section {
+    margin: 6rem 0;
+}
+
+
+@media screen and (max-width: 1270px) {
+    .try-section {
+        margin: 1rem 0;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+}

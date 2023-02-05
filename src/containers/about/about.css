@@ -1,0 +1,43 @@
+.faq-sec-container{
+    padding: 2rem;
+}
+
+.faq-section{
+    background-color: #132a42;
+}
+
+.faq-container{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.about-container{
+    padding: 6rem 18rem;
+}
+
+@media screen and (max-width: 1400px) {
+    .about-container{
+        padding: 6rem;
+    }
+    .faq-container{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .about-container{
+        padding: 5rem;
+    }
+    .faq-container{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .about-container{
+        padding: 1rem;
+    }
+}

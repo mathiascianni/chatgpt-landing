@@ -1,0 +1,13 @@
+.samples-container{
+    padding: 0 18rem;
+}
+
+.samples{
+    margin: 6rem 0;
+}
+
+@media screen and (max-width: 920px) {
+    .samples{
+        margin: 1rem 0;
+    }
+}
