@@ -1,6 +1,6 @@
 import "./navbar.css";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
-import logo from "../../assets/gpt-logo.png"
+import logo from "/gpt-logo.png";
 import { useState, useEffect } from "react";
 
 const Menu = ({ handleClick }) => {

@@ -1,5 +1,5 @@
 import "./header.css";
-import polygonFace from "../../assets/polygon-face.webp";
+import polygonFace from "/polygon-face.webp";
 
 const Header = () => {
     return (
