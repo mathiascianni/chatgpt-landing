@@ -2,7 +2,7 @@
 
 Este proyecto está creado con el fin de practicar React. La temática de la landing es la popular inteligencia artificial, ChatGPT.
 
-## Project Description
+## Sobre el proyecto
 
 Esta web es una página informativa para mostrar el potencial de ChatGPT, sus funcionalidades y posibilidades.
 
