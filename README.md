@@ -12,7 +12,7 @@ Esta web es una página informativa para mostrar el potencial de ChatGPT, sus fu
 * Uso de Hooks y custom Hooks
 * Aplicar conocimientos de CSS vanilla
 
-## Project Dependencies
+## Dependencias del proyecto
 
 El proyecto tiene las siguientes dependencias:
 
