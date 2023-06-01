@@ -1,6 +1,6 @@
 # ChatGPT Landing Page
-
 Este proyecto está creado con el fin de practicar React. La temática de la landing es la popular inteligencia artificial, ChatGPT.
+Demo del proyecto: https://chatgpt-landing.vercel.app/
 
 ## Sobre el proyecto
 
